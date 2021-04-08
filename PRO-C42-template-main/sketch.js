@@ -94,4 +94,3 @@ function draw(){
 
     drawSprites();
 }   
-
