@@ -11,7 +11,7 @@ class Drops{
 
 update(){
     if(this.body.position.y> height){
-        Matter.body.setPosition(this.body,{x:random(0,400), y:random(0,400)})
+        Matter.Body.setPosition(this.body,{x:random(0,400), y:random(0,400)})
     }
 }
 
